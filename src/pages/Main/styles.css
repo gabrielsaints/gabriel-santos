@@ -1,0 +1,14 @@
+#main-container {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container form {
+  display: flex;
+  width: 300px;
+  background: #eee;
+  flex-direction: column;
+}
