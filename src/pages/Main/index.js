@@ -14,7 +14,6 @@ class Main extends Component {
             </li>
             <li className="header-menu-item">File</li>
             <li className="header-menu-item">Edit</li>
-            <li className="header-menu-item">{this.state.sidemenu}</li>
           </ul>
         </div>
         <div className="code-page">
