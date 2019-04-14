@@ -1,13 +1,11 @@
-body {
-  margin: 0;
-  color: #444;
-  background: #ffc600;
-  font: 300 18px/18px Roboto, sans-serif;
-}
 *,
 :after,
 :before {
   box-sizing: border-box;
+}
+#construction-container {
+  height: 100%;
+  background: #ffc600;
 }
 .pull-left {
   float: left;
@@ -271,7 +269,7 @@ body {
 #explanation #exp-url {
   background: #271e01;
   color: #eee;
-  padding: 0 10px 0 10px;
+  padding: 0 5px 0 5px;
 }
 
 #explanation #exp-exten {

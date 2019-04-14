@@ -1,14 +1,80 @@
-#main-container {
+#main-container,
+.code-page,
+.side-left-menu {
   height: 100%;
+}
 
+#main-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#main-container form {
+.header {
+  background: rgb(55, 52, 61);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 35px;
   display: flex;
-  width: 300px;
-  background: #eee;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header li {
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.header li:hover {
+  background: #000;
+}
+
+.header .header-menu-icon {
+  font-size: 15px;
+}
+
+.code-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-page .side-left-menu {
+  background: rgb(72, 68, 80);
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  left: 0;
+  top: 35px;
+  width: 350px;
+}
+
+.extensions-menu {
+  background: rgb(148, 140, 163);
+  height: 100%;
+  display: flex;
+  align-items: center;
   flex-direction: column;
+  width: 50px;
+  padding-top: 15px;
+}
+
+.extensions-font {
+  color: rgb(177, 169, 194);
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 8px 50px;
+}
+
+.extensions-font:hover {
+  color: rgb(148, 140, 163);
+  background: rgb(177, 169, 194);
 }
